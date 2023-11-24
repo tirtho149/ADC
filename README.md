@@ -52,4 +52,4 @@ Before you begin, ensure you have the following tools and resources in place:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/apon-dental-care.git
+   git clone [github.com/your-username/apon-dental-care.git](https://github.com/tirtho149/ADC)https://github.com/tirtho149/ADC
