@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Dental Care Website</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Apon Dental Care</h1>
+        <p>Your trusted partner in oral health</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Apon Dental Care is a state-of-the-art dental clinic dedicated to providing comprehensive and compassionate dental care to our community. With a team of experienced dentists and cutting-edge technology, we strive to enhance the oral health and smiles of our patients.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <img src="general_dentistry.jpg" alt="General Dentistry">
+            <div class="service-details">
+                <h3>General Dentistry</h3>
+                <p>Our general dentistry services cover routine check-ups, cleanings, and preventive care. We focus on early detection and treatment of dental issues to maintain optimal oral health.</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="orthodontics.jpg" alt="Orthodontics">
+            <div class="service-details">
+                <h3>Orthodontics</h3>
+                <p>We offer orthodontic treatments to help you achieve a straight and beautiful smile. Our orthodontic specialists provide personalized treatment plans, including braces and Invisalign.</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="oral_surgery.jpg" alt="Oral Surgery">
+            <div class="service-details">
+                <h3>Oral Surgery</h3>
+                <p>Our oral surgery procedures are conducted by experienced and skilled surgeons. From tooth extraction to more complex surgeries, we prioritize patient comfort and safety.</p>
+            </div>
+        </div>
+        <!-- Add more services as needed -->
+    </section>
+
+    <section id="team">
+        <h2>Meet Our Team</h2>
+        <div class="team-member">
+            <img src="dr_smith.jpg" alt="Dr. Smith">
+            <div class="member-details">
+                <h3>Dr. Emily Smith</h3>
+                <p>General Dentist</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="dr_jones.jpg" alt="Dr. Jones">
+            <div class="member-details">
+                <h3>Dr. Michael Jones</h3>
+                <p>Orthodontist</p>
+            </div>
+        </div>
+        <!-- Add more team members as needed -->
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Patients Say</h2>
+        <div class="testimonial">
+            <blockquote>
+                "I had a great experience at Apon Dental Care. The staff is friendly, and the service is excellent."
+            </blockquote>
+            <p class="author">- John Doe</p>
+        </div>
+        <div class="testimonial">
+            <blockquote>
+                "The orthodontic treatment here transformed my smile. I highly recommend Apon Dental Care."
+            </blockquote>
+            <p class="author">- Jane Smith</p>
+        </div>
+        <!-- Add more testimonials as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need to schedule an appointment? Contact us:</p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Your Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Apon Dental Care. All rights reserved.</p>
+    </footer>
+</body>
+</html>
